@@ -128,7 +128,7 @@ useHead({
 </script>
 
 <template>
-    <div class="flex flex-col items-center mt-10 w-full">
+    <div class="flex flex-col items-center mt-10 w-full p-2">
         <!-- ฟอร์ม -->
         <form @submit.prevent="createPost" class="flex flex-col gap-y-4 w-full max-w-md">
             <input v-model="title" type="text" placeholder="Title" class="input input-bordered w-full"
